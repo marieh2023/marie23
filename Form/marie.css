@@ -1,0 +1,130 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html
+{
+    height: 100%;
+}
+body
+{
+    
+    height: max-content;
+    
+
+}
+.entire-section
+{
+
+height: 100%;
+background-image: url(Road.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+
+}
+
+.bg-color
+{
+
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.321);
+}
+.form
+{
+    
+    padding: 30px;
+    width: 35%;
+    height: max-content;
+    background-color: white;
+    margin: 30px 0;
+}
+.form-header
+{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.form-links
+{
+    
+    padding: 10px;
+    box-shadow: 5px 5px 10px lime;
+    width: 70%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.log
+{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+    
+}
+.sign
+{
+text-decoration: none;
+padding: 10px 20px;
+background-image: linear-gradient(90deg, darkgreen, white);
+border-radius: 30px;
+color: black;
+
+}
+.form-icons
+{
+    
+    padding: 10px;
+    margin-top: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.f-icons
+{
+    font-size: 25px;
+    margin: 0 20px;
+}
+form
+{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#fullname, #mail, #pass
+{
+    border-bottom: 2px black solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    margin: 20px;
+
+    
+    
+}
+#button
+{
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    color: black;
+    background-image: linear-gradient(90deg, darkgreen, white);
+}
+.agree
+{
+    margin: 20px;
+}
